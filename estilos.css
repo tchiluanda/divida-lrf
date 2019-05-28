@@ -1,4 +1,5 @@
-/* 1. Base */
+/* refs */
+/* http://thecodeplayer.com/walkthrough/css3-family-tree */
 
 html {
     background-color: #5f45bb;
@@ -52,10 +53,11 @@ header h1 {
     width: 10rem;
     height: 10rem;
     border-radius: 100%;
-    background-color: rgb(232,211,92);
+    background-color: rgba(232,211,92,1);
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    opacity: 1;
     /*padding: 5% 3%;*/
     
 }
