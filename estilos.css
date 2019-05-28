@@ -55,7 +55,7 @@ header h1 {
     border-radius: 100%;
     background-color: rgba(232,211,92,1);
     text-align: center;
-    display: table-cell;
+    display: table-cell; /* entender melhor isso aqui */
     vertical-align: middle;
     opacity: 1;
     /*padding: 5% 3%;*/
