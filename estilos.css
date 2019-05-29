@@ -3,7 +3,7 @@
 
 html {
     background-color: #5f45bb;
-    background-image: linear-gradient(to bottom right, #2c90bf, rgb(232,211,92));
+    background-image: linear-gradient(to bottom right, rgb(74,28,35), rgb(213,142,51),rgb(232,211,92));   /* #2c90bf, rgb(232,211,92), red); */
     color: #fff;
     font-family: "Montserrat";
     font-size: 16px;
@@ -21,10 +21,17 @@ html {
 
 header h1 {
     font-size: 3rem;
-    font-weight: 800;
+    font-family: "Montserrat Bold", "Montserrat";
+    font-weight: bold;
     margin: 1rem;
     line-height: 1;
     text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo-tt {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 .fundo {
@@ -54,7 +61,8 @@ header h1 {
     width: 10rem;
     height: 10rem;
     border-radius: 100%;
-    background-color: rgba(232,211,92,1);
+    color: rgb(232,211,92);
+    background-color: rgb(74,28,35);
     text-align: center;
     display: table-cell; /* entender melhor isso aqui */
     vertical-align: middle;
