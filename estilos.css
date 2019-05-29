@@ -5,7 +5,7 @@ html {
     background-color: #5f45bb;
     background-image: linear-gradient(to bottom right, #2c90bf, rgb(232,211,92));
     color: #fff;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -22,7 +22,7 @@ html {
 header h1 {
     font-size: 3rem;
     font-weight: 800;
-    padding: 1rem;
+    margin: 1rem;
     line-height: 1;
     text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -42,11 +42,12 @@ header h1 {
     }
 
 .conteudo main {
-    font-family: "Source Sans Pro"
+    font-family: "Montserrat";
+    line-height: 1.5;
 }
 
 .apresentacao {
-    padding: 1rem;
+    margin: 1rem;
 }
 
 .ponto {
