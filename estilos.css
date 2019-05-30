@@ -100,12 +100,12 @@ header h1 {
 
 .botao:hover {
     box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.2);
-    transform: scale(1.02) translateY(-4px);
+    transform: translateY(-2px);
 }
 
 .botao:active {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-    transform: scale(0.98) translateY(-2px);
+    transform: translateY(-1px);
     }
 
 /*.container-subcomponente > li {
